@@ -1,18 +1,17 @@
 #include<stdio.h>
 void main()
 {
-int a[50],i,n;
-printf("enter the array size:");
+int a[20],i,n;
+printf("Enter the array size:");
 scanf("%d",&n);
-printf("enter the array elements:");
+printf("Enter the array elements:");
 for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+ scanf("%d",&a[i]);
 }
-printf("the array elements are:");
+printf("The array elements are:");
 for(i=0;i<n;i++)
 {
-printf("\n%d",a[i]);
+ printf("\n%d",a[i]);
 }
 }
-
